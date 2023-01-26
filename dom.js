@@ -160,7 +160,7 @@ newItem.appendChild(newItemText);
 // console.log(newItem);
 
 var list=document.getElementById('items');
-// var list=document.querySeletor('.list-group-item');
+// var list=document.querySelector('.list-group-item');
 list.insertBefore(newItem,list.children[0]);
 
 
